@@ -9,3 +9,7 @@ If you'd like to run testing locally, please follow below:
 ```
 $ yarn test
 ```
+
+## References
+
+- [Javascript Test Framework](https://xxd3vin.github.io/dev/js-test-framework.html)
