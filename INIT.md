@@ -1,5 +1,7 @@
 # INIT
 
+This project is init with:
+
 ```
 $ yarn init
 $ yarn add --dev jest-puppeteer
