@@ -10,6 +10,13 @@ If you'd like to run testing locally, please follow below:
 $ yarn test
 ```
 
+Show web browser when testing.
+
+```
+$ HEADLESS=false yarn test
+```
+
 ## References
 
+- [jest-puppeteer](https://github.com/smooth-code/jest-puppeteer)
 - [Javascript Test Framework](https://xxd3vin.github.io/dev/js-test-framework.html)
