@@ -33,6 +33,16 @@ describe("xxd3vin.github.io", () => {
   });
 
   it("should have xxd3vin keyword", async () => {
+    const foo = "bar";
+    await page.evaluate(
+      ({ foo }) => {
+        localStorage.setItem("foo", foo);
+      },
+      { foo }
+    );
+
+    // await page.waitFor(99);
+
     // API for page object
     // https://github.com/puppeteer/puppeteer/blob/v5.1.0/docs/api.md#class-page
     await expect(page.title()).resolves.toMatch("About");
